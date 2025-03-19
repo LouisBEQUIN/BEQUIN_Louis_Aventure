@@ -7,3 +7,11 @@
 /// @DnDArgument : "number" "character_life"
 /// @DnDSaveInfo : "sprite" "S_heart"
 var l58ECEC37_0 = sprite_get_width(S_heart);var l58ECEC37_1 = 0;for(var l58ECEC37_2 = character_life; l58ECEC37_2 > 0; --l58ECEC37_2) {	draw_sprite(S_heart, 0, 1100 + l58ECEC37_1, 900);	l58ECEC37_1 += l58ECEC37_0;}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 05549AD8
+/// @DnDArgument : "var" "character_life"
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "7"
+if(character_life > 7){}

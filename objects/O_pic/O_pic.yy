@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"O_collision",
+  "%Name":"O_pic",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_collision",
+  "name":"O_pic",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_collision",
+    "path":"objects/O_collision/O_collision.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,10 +31,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"S_collision",
-    "path":"sprites/S_collision/S_collision.yy",
+    "name":"S_pic",
+    "path":"sprites/S_pic/S_pic.yy",
   },
   "spriteMaskId":null,
   "visible":true,
