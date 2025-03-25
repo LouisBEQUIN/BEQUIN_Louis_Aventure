@@ -33,4 +33,16 @@ function Scr_reduce_player_life(amount) {	/// @DnDAction : YoYo Games.Common.I
 		with(O_player_life_manager) {
 		alarm_set(0, 60);
 		
+		}
+	
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 551E1ED3
+		/// @DnDApplyTo : {O_player_life_manager}
+		/// @DnDParent : 17120066
+		/// @DnDArgument : "steps" "10"
+		/// @DnDArgument : "alarm" "2"
+		with(O_player_life_manager) {
+		alarm_set(2, 10);
+		
 		}}}

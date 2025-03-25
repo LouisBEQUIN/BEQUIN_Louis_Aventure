@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"O_pic",
-  "eventList":[],
+  "%Name":"O_sword",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"O_pic",
+  "name":"O_sword",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_pic",
-    "path":"sprites/S_pic/S_pic.yy",
+    "name":"S_sword",
+    "path":"sprites/S_sword/S_sword.yy",
   },
   "spriteMaskId":null,
   "visible":true,

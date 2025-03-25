@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_pic",
-  "eventList":[],
+  "%Name":"O_heal_potion",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_character","path":"objects/O_character/O_character.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"O_pic",
+  "name":"O_heal_potion",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_pic",
-    "path":"sprites/S_pic/S_pic.yy",
+    "name":"S_heal_potion",
+    "path":"sprites/S_heal_potion/S_heal_potion.yy",
   },
   "spriteMaskId":null,
   "visible":true,
