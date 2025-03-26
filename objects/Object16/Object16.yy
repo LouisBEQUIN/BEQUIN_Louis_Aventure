@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"O_heal_potion",
+  "%Name":"Object16",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_character","path":"objects/O_character/O_character.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_heal_potion",
+  "name":"Object16",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_interactable",
+    "path":"objects/O_interactable/O_interactable.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_heal_potion",
-    "path":"sprites/S_heal_potion/S_heal_potion.yy",
+    "name":"S_chest",
+    "path":"sprites/S_chest/S_chest.yy",
   },
   "spriteMaskId":null,
   "visible":true,
