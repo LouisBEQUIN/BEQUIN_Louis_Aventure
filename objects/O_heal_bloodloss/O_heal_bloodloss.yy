@@ -6,8 +6,8 @@
   "name":"O_heal_bloodloss",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"items",
+    "path":"folders/Objects/object/items.yy",
   },
   "parentObjectId":null,
   "persistent":false,

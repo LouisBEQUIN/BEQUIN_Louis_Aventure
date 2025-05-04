@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
   "%Name":"O_heal_food",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_heal_food",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"items",
+    "path":"folders/Objects/object/items.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_interactable",
+    "path":"objects/O_interactable/O_interactable.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

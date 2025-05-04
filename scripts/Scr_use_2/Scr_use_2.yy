@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_use_2",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Scr_use_2",
+  "parent":{
+    "name":"manager_actions",
+    "path":"folders/Scripts/manager_actions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

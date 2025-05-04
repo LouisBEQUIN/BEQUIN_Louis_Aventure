@@ -1,0 +1,26 @@
+{
+  "$GMPath":"",
+  "%Name":"P_ennemy_3",
+  "closed":false,
+  "kind":0,
+  "name":"P_ennemy_3",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":960.0,"y":448.0,},
+    {"speed":100.0,"x":960.0,"y":480.0,},
+    {"speed":100.0,"x":1088.0,"y":480.0,},
+    {"speed":100.0,"x":1088.0,"y":512.0,},
+    {"speed":100.0,"x":960.0,"y":512.0,},
+    {"speed":100.0,"x":960.0,"y":544.0,},
+    {"speed":100.0,"x":1088.0,"y":544.0,},
+    {"speed":100.0,"x":1088.0,"y":576.0,},
+    {"speed":100.0,"x":960.0,"y":576.0,},
+    {"speed":100.0,"x":960.0,"y":608.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"Scr_reduce_player_life",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"manager_extern",
+    "path":"folders/Scripts/manager_extern.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

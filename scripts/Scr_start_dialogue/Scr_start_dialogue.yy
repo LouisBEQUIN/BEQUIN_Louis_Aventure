@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_start_dialogue",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Scr_start_dialogue",
+  "parent":{
+    "name":"manager_dialogue",
+    "path":"folders/Scripts/manager_dialogue.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

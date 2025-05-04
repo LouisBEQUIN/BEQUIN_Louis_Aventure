@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"O_pic",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_pic",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"bloc",
+    "path":"folders/Objects/bloc.yy",
   },
   "parentObjectId":null,
   "persistent":false,

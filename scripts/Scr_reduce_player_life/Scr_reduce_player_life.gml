@@ -24,6 +24,14 @@ function Scr_reduce_player_life(amount) {	/// @DnDAction : YoYo Games.Common.I
 		O_player_life_manager.character_life += -amount;
 		O_player_life_manager.isinvincible = true;
 	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 2B3C77D7
+		/// @DnDParent : 17120066
+		/// @DnDArgument : "script" "Scr_screen_shake"
+		/// @DnDSaveInfo : "script" "Scr_screen_shake"
+		script_execute(Scr_screen_shake);
+	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 07AB818C

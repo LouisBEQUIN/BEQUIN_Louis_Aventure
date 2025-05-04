@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"S_heal_bloodloss",
-  "bboxMode":0,
-  "bbox_bottom":14,
-  "bbox_left":2,
-  "bbox_right":13,
-  "bbox_top":2,
+  "bboxMode":2,
+  "bbox_bottom":15,
+  "bbox_left":1,
+  "bbox_right":14,
+  "bbox_top":1,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -14,9 +14,9 @@
   "frames":[
     {"$GMSpriteFrame":"","%Name":"304b3d38-de6a-44a7-a123-d9f41cf40131","name":"304b3d38-de6a-44a7-a123-d9f41cf40131","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":4,
-  "gridY":4,
-  "height":16,
+  "gridX":16,
+  "gridY":16,
+  "height":32,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"6fa3f5fe-1c42-420e-b134-683a21a67b18","blendMode":0,"displayName":"default","isLocked":false,"name":"6fa3f5fe-1c42-420e-b134-683a21a67b18","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"object",
-    "path":"folders/Sprites/object.yy",
+    "name":"items",
+    "path":"folders/Sprites/object/items.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":16,
+  "width":32,
 }

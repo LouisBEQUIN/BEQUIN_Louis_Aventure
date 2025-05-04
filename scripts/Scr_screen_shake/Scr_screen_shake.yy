@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_screen_shake",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Scr_screen_shake",
+  "parent":{
+    "name":"manager_extern",
+    "path":"folders/Scripts/manager_extern.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

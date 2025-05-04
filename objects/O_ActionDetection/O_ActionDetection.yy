@@ -8,8 +8,8 @@
   "name":"O_ActionDetection",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"bloc",
+    "path":"folders/Objects/bloc.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -12,8 +12,8 @@
   "name":"O_player_life_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"manager",
+    "path":"folders/Objects/manager.yy",
   },
   "parentObjectId":null,
   "persistent":false,

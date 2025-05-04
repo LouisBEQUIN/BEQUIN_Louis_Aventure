@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_heal",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Scr_heal",
+  "parent":{
+    "name":"manager_actions",
+    "path":"folders/Scripts/manager_actions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,23 +1,21 @@
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 3D7AFF24
-/// @DnDArgument : "var" "parentInGame"
+/// @DnDHash : 69F2ABEF
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "parentObject.x"
+/// @DnDArgument : "expr_1" "parentObject.y"
+/// @DnDArgument : "var" "x"
+/// @DnDArgument : "var_1" "y"
+x = parentObject.x;
+y = parentObject.y;
+
+/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+/// @DnDVersion : 1
+/// @DnDHash : 0E0F4FB7
+/// @DnDArgument : "obj" "parentObject"
 /// @DnDArgument : "not" "1"
-/// @DnDArgument : "value" "-4"
-if(!(parentInGame == -4)){	/// @DnDAction : YoYo Games.Common.Variable
+var l0E0F4FB7_0 = false;l0E0F4FB7_0 = instance_exists(parentObject);if(!l0E0F4FB7_0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 7025CC39
-	/// @DnDInput : 4
-	/// @DnDParent : 3D7AFF24
-	/// @DnDArgument : "expr" "parentInGame.x"
-	/// @DnDArgument : "expr_1" "parentInGame.y"
-	/// @DnDArgument : "expr_2" "parentInGame.image_xscale"
-	/// @DnDArgument : "expr_3" "parentInGame.image_yscale"
-	/// @DnDArgument : "var" "x"
-	/// @DnDArgument : "var_1" "y"
-	/// @DnDArgument : "var_2" "image_xscale"
-	/// @DnDArgument : "var_3" "image_yscale"
-	x = parentInGame.x;
-	y = parentInGame.y;
-	image_xscale = parentInGame.image_xscale;
-	image_yscale = parentInGame.image_yscale;}
+	/// @DnDHash : 0CE8440B
+	/// @DnDParent : 0E0F4FB7
+	instance_destroy();}

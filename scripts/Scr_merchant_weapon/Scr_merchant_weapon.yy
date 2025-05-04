@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_merchant_weapon",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Scr_merchant_weapon",
+  "parent":{
+    "name":"manager_merchant",
+    "path":"folders/Scripts/manager_merchant.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

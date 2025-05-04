@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"Scr_check_interactable",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"manager_extern",
+    "path":"folders/Scripts/manager_extern.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
