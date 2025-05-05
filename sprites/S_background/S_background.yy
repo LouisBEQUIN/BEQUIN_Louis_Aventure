@@ -53,6 +53,7 @@
   "height":1054,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"6ddcaa41-c152-4b8d-a869-ac7c0d94d83a","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"6ddcaa41-c152-4b8d-a869-ac7c0d94d83a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"6889abe4-82d3-4e1b-935c-23352c3553ee","blendMode":0,"displayName":"default","isLocked":false,"name":"6889abe4-82d3-4e1b-935c-23352c3553ee","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_background",
@@ -66,7 +67,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"S_background",
     "autoRecord":true,
     "backdropHeight":768,
@@ -97,6 +98,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":1054.0,
+    "seqWidth":1920.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
