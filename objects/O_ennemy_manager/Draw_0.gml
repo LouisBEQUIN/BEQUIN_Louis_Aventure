@@ -20,12 +20,12 @@ if(what_ennemy == 3055){	/// @DnDAction : YoYo Games.Common.Temp_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 539513AC
 	/// @DnDParent : 655372D6
-	/// @DnDArgument : "x" "x - 24"
+	/// @DnDArgument : "x" "x - 9"
 	/// @DnDArgument : "y" "y -20"
 	/// @DnDArgument : "sprite" "S_heart_ennemy"
 	/// @DnDArgument : "number" "min(hp,10)"
 	/// @DnDSaveInfo : "sprite" "S_heart_ennemy"
-	var l539513AC_0 = sprite_get_width(S_heart_ennemy);var l539513AC_1 = 0;for(var l539513AC_2 = min(hp,10); l539513AC_2 > 0; --l539513AC_2) {	draw_sprite(S_heart_ennemy, 0, x - 24 + l539513AC_1, y -20);	l539513AC_1 += l539513AC_0;}
+	var l539513AC_0 = sprite_get_width(S_heart_ennemy);var l539513AC_1 = 0;for(var l539513AC_2 = min(hp,10); l539513AC_2 > 0; --l539513AC_2) {	draw_sprite(S_heart_ennemy, 0, x - 9 + l539513AC_1, y -20);	l539513AC_1 += l539513AC_0;}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -37,34 +37,34 @@ if(what_ennemy == 3055){	/// @DnDAction : YoYo Games.Common.Temp_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 5ADB66A9
 		/// @DnDParent : 0F952F94
-		/// @DnDArgument : "x" "x - 24"
+		/// @DnDArgument : "x" "x - 9"
 		/// @DnDArgument : "y" "y - 10"
 		/// @DnDArgument : "sprite" "S_heart_ennemy"
 		/// @DnDArgument : "number" "lifeTemp2"
 		/// @DnDSaveInfo : "sprite" "S_heart_ennemy"
-		var l5ADB66A9_0 = sprite_get_width(S_heart_ennemy);var l5ADB66A9_1 = 0;for(var l5ADB66A9_2 = lifeTemp2; l5ADB66A9_2 > 0; --l5ADB66A9_2) {	draw_sprite(S_heart_ennemy, 0, x - 24 + l5ADB66A9_1, y - 10);	l5ADB66A9_1 += l5ADB66A9_0;}}
+		var l5ADB66A9_0 = sprite_get_width(S_heart_ennemy);var l5ADB66A9_1 = 0;for(var l5ADB66A9_2 = lifeTemp2; l5ADB66A9_2 > 0; --l5ADB66A9_2) {	draw_sprite(S_heart_ennemy, 0, x - 9 + l5ADB66A9_1, y - 10);	l5ADB66A9_1 += l5ADB66A9_0;}}
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
 	/// @DnDVersion : 1
 	/// @DnDHash : 3940B010
 	/// @DnDParent : 655372D6
-	/// @DnDArgument : "x" "x - 24"
+	/// @DnDArgument : "x" "x - 9"
 	/// @DnDArgument : "y" "y -10"
 	/// @DnDArgument : "sprite" "S_heart_ext_ennemy"
 	/// @DnDArgument : "number" "10"
 	/// @DnDSaveInfo : "sprite" "S_heart_ext_ennemy"
-	var l3940B010_0 = sprite_get_width(S_heart_ext_ennemy);var l3940B010_1 = 0;for(var l3940B010_2 = 10; l3940B010_2 > 0; --l3940B010_2) {	draw_sprite(S_heart_ext_ennemy, 0, x - 24 + l3940B010_1, y -10);	l3940B010_1 += l3940B010_0;}
+	var l3940B010_0 = sprite_get_width(S_heart_ext_ennemy);var l3940B010_1 = 0;for(var l3940B010_2 = 10; l3940B010_2 > 0; --l3940B010_2) {	draw_sprite(S_heart_ext_ennemy, 0, x - 9 + l3940B010_1, y -10);	l3940B010_1 += l3940B010_0;}
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
 	/// @DnDVersion : 1
 	/// @DnDHash : 448D4C4C
 	/// @DnDParent : 655372D6
-	/// @DnDArgument : "x" "x - 24"
+	/// @DnDArgument : "x" "x - 9"
 	/// @DnDArgument : "y" "y -20"
 	/// @DnDArgument : "sprite" "S_heart_ext_ennemy"
 	/// @DnDArgument : "number" "10"
 	/// @DnDSaveInfo : "sprite" "S_heart_ext_ennemy"
-	var l448D4C4C_0 = sprite_get_width(S_heart_ext_ennemy);var l448D4C4C_1 = 0;for(var l448D4C4C_2 = 10; l448D4C4C_2 > 0; --l448D4C4C_2) {	draw_sprite(S_heart_ext_ennemy, 0, x - 24 + l448D4C4C_1, y -20);	l448D4C4C_1 += l448D4C4C_0;}}
+	var l448D4C4C_0 = sprite_get_width(S_heart_ext_ennemy);var l448D4C4C_1 = 0;for(var l448D4C4C_2 = 10; l448D4C4C_2 > 0; --l448D4C4C_2) {	draw_sprite(S_heart_ext_ennemy, 0, x - 9 + l448D4C4C_1, y -20);	l448D4C4C_1 += l448D4C4C_0;}}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

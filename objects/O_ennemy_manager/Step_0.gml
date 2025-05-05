@@ -6,10 +6,12 @@
 if(what_ennemy == 3055){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 3FCAACC5
+	/// @DnDApplyTo : {O_character}
 	/// @DnDParent : 2F1D59FB
 	/// @DnDArgument : "var" "check_boss_start"
 	/// @DnDArgument : "value" "true"
-	if(check_boss_start == true){	/// @DnDAction : YoYo Games.Common.If_Variable
+	with(O_character) var l3FCAACC5_0 = check_boss_start == true;
+	if(l3FCAACC5_0){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 4712E69D
 		/// @DnDParent : 3FCAACC5
@@ -83,9 +85,11 @@ if(what_ennemy == 3055){	/// @DnDAction : YoYo Games.Common.If_Variable
 					/// @DnDHash : 3653D8A7
 					/// @DnDParent : 73442E16
 					/// @DnDArgument : "path" "P_boss_base_1"
+					/// @DnDArgument : "speed" "3"
+					/// @DnDArgument : "atend" "path_action_reverse"
 					/// @DnDArgument : "relative" "true"
 					/// @DnDSaveInfo : "path" "P_boss_base_1"
-					path_start(P_boss_base_1, 1, path_action_stop, true);
+					path_start(P_boss_base_1, 3, path_action_reverse, true);
 				
 					/// @DnDAction : YoYo Games.Paths.Path_Position
 					/// @DnDVersion : 1
@@ -243,4 +247,15 @@ if(what_ennemy == 3){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDArgument : "objectid" "O_sword_black"
 		/// @DnDArgument : "layer" ""object""
 		/// @DnDSaveInfo : "objectid" "O_sword_black"
-		instance_create_layer(x, y - 32, "object", O_sword_black);}}
+		instance_create_layer(x, y - 32, "object", O_sword_black);
+	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 20958C8B
+		/// @DnDParent : 16FB6A55
+		/// @DnDArgument : "xpos" "x"
+		/// @DnDArgument : "ypos" "y "
+		/// @DnDArgument : "objectid" "O_final_key_collectible"
+		/// @DnDArgument : "layer" ""object""
+		/// @DnDSaveInfo : "objectid" "O_final_key_collectible"
+		instance_create_layer(x, y , "object", O_final_key_collectible);}}

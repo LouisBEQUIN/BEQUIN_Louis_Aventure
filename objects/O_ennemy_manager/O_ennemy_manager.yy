@@ -37,7 +37,6 @@
     {"$GMObjectProperty":"v1","%Name":"hp_to_show","filters":[],"listItems":[],"multiselect":false,"name":"hp_to_show","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"hp","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"on_path","filters":[],"listItems":[],"multiselect":false,"name":"on_path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"go","filters":[],"listItems":[],"multiselect":false,"name":"go","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"check_boss_start","filters":[],"listItems":[],"multiselect":false,"name":"check_boss_start","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"check_bullet","filters":[],"listItems":[],"multiselect":false,"name":"check_bullet","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",

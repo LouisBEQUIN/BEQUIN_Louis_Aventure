@@ -3,8 +3,8 @@
 /// @DnDHash : 04A374F7
 /// @DnDApplyTo : {O_QuickInvent_manager}
 /// @DnDArgument : "var" "items"
-/// @DnDArgument : "value" "O_final_key_collectible"
-with(O_QuickInvent_manager) var l04A374F7_0 = items == O_final_key_collectible;
+/// @DnDArgument : "value" "O_key_boss"
+with(O_QuickInvent_manager) var l04A374F7_0 = items == O_key_boss;
 if(l04A374F7_0){	/// @DnDAction : YoYo Games.Instances.Change_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 5781E78B
