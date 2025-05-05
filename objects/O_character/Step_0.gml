@@ -49,3 +49,24 @@ if(ennemy_killed == 4){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDApplyTo : {O_wallhack_zone_2}
 	/// @DnDParent : 6F90E9FB
 	with(O_wallhack_zone_2) instance_destroy();}
+
+/// @DnDAction : YoYo Games.Rooms.Get_Current_Room
+/// @DnDVersion : 1
+/// @DnDHash : 0A3F5C3F
+/// @DnDArgument : "var" "current_room"
+current_room = room;
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 137BC758
+/// @DnDArgument : "var" "current_room"
+/// @DnDArgument : "value" "R_start_screen"
+if(current_room == R_start_screen){	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 21ECFF8B
+	/// @DnDParent : 137BC758
+	/// @DnDArgument : "code" "/// @description Execute Code$(13_10)layer_set_visible("UI",false)$(13_10)layer_set_visible("minimapObject",false)$(13_10)layer_set_visible("Manager",false)"
+	/// @description Execute Code
+	layer_set_visible("UI",false)
+	layer_set_visible("minimapObject",false)
+	layer_set_visible("Manager",false)}

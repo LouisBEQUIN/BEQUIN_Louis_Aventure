@@ -167,6 +167,7 @@
     {"id":{"name":"Scr_weapon_pickup","path":"scripts/Scr_weapon_pickup/Scr_weapon_pickup.yy",},},
     {"id":{"name":"S_ActionDetection","path":"sprites/S_ActionDetection/S_ActionDetection.yy",},},
     {"id":{"name":"S_back_weapon_UI","path":"sprites/S_back_weapon_UI/S_back_weapon_UI.yy",},},
+    {"id":{"name":"S_background","path":"sprites/S_background/S_background.yy",},},
     {"id":{"name":"S_bullet_ennemy","path":"sprites/S_bullet_ennemy/S_bullet_ennemy.yy",},},
     {"id":{"name":"S_character_down","path":"sprites/S_character_down/S_character_down.yy",},},
     {"id":{"name":"S_character_left","path":"sprites/S_character_left/S_character_left.yy",},},
