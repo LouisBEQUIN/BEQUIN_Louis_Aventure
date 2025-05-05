@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"O_bullet_ennemy",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_collision","path":"objects/O_collision/O_collision.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_bullet_ennemy",
   "overriddenProperties":[],
